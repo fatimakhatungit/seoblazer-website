@@ -1494,6 +1494,9 @@ body .fade-page {
   border: 0;
   height: 45px;
 }
+.lang i {
+	color: #fff;
+}
 .lang select {
   cursor: pointer;
   font-size: 12px;
@@ -2644,12 +2647,12 @@ body .fade-page {
 .copy-right-social a:before {
   font-family: "ionicons";
 }
-.copy-right-social a[href*="twitter.com"]:before {
+/* .copy-right-social a[href*="twitter.com"]:before {
   content: "\f243";
-}
-.copy-right-social a[href*="facebook.com"]:before {
+} */
+/* .copy-right-social a[href*="facebook.com"]:before {
   content: "\f231";
-}
+} */
 .copy-right-social a[href*="plus.google.com"]:before {
   content: "\f235";
 }
@@ -4884,10 +4887,10 @@ body .fade-page {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  border: 1px solid #ffffff;
+  /*! border: 1px solid #ffffff; */
   line-height: 50px;
   position: absolute;
-}
+} 
 .perfect-seo-crs .owl-buttons div.disabled {
   color: rgba(255, 255, 255, 0.15);
   border-color: rgba(255, 255, 255, 0.15);
@@ -20677,4 +20680,11 @@ img{
 .slider-btn-group a:hover{
 	color: rgb(39, 47, 69);
 	background-color: #fff;
+}
+.scroll-to-top:hover i {
+	position: relative;
+	top: -5px;
+	-moz-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
 }
